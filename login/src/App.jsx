@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
-import jpIMG from './jp.svg';
+import jpIMG from '../src/assets/jp.svg';
 
-import "./styles.css";
+import '../src/assets/styles.css';
 
-function App = ()  {
+function App = () => {
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
